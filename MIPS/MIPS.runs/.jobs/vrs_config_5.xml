@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="MIPS_Design_File_Register_0_0_synth_1" LaunchDir="D:/general/University/VHDL/MIPS/MIPS.runs/MIPS_Design_File_Register_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MIPS_Design_mux_2x1_0_0_synth_1" LaunchDir="D:/general/University/VHDL/MIPS/MIPS.runs/MIPS_Design_mux_2x1_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MIPS_Design_IM_0_0_synth_1" LaunchDir="D:/general/University/VHDL/MIPS/MIPS.runs/MIPS_Design_IM_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MIPS_Design_DM_0_0_synth_1" LaunchDir="D:/general/University/VHDL/MIPS/MIPS.runs/MIPS_Design_DM_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MIPS_Design_PC_0_0_synth_1" LaunchDir="D:/general/University/VHDL/MIPS/MIPS.runs/MIPS_Design_PC_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MIPS_Design_Control_Unit_0_0_synth_1" LaunchDir="D:/general/University/VHDL/MIPS/MIPS.runs/MIPS_Design_Control_Unit_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MIPS_Design_ALU_0_0_synth_1" LaunchDir="D:/general/University/VHDL/MIPS/MIPS.runs/MIPS_Design_ALU_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MIPS_Design_mux_2x1_1_0_synth_1" LaunchDir="D:/general/University/VHDL/MIPS/MIPS.runs/MIPS_Design_mux_2x1_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MIPS_Design_mux_2x1_2_0_synth_1" LaunchDir="D:/general/University/VHDL/MIPS/MIPS.runs/MIPS_Design_mux_2x1_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MIPS_Design_mux_2x1_4_0_synth_1" LaunchDir="D:/general/University/VHDL/MIPS/MIPS.runs/MIPS_Design_mux_2x1_4_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MIPS_Design_Sign_Extention_0_0_synth_1" LaunchDir="D:/general/University/VHDL/MIPS/MIPS.runs/MIPS_Design_Sign_Extention_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MIPS_Design_PC_Adder_0_0_synth_1" LaunchDir="D:/general/University/VHDL/MIPS/MIPS.runs/MIPS_Design_PC_Adder_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MIPS_Design_ALU_Control_0_0_synth_1" LaunchDir="D:/general/University/VHDL/MIPS/MIPS.runs/MIPS_Design_ALU_Control_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MIPS_Design_util_vector_logic_0_0_synth_1" LaunchDir="D:/general/University/VHDL/MIPS/MIPS.runs/MIPS_Design_util_vector_logic_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

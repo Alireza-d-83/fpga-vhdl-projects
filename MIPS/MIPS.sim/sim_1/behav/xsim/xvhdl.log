@@ -1,0 +1,12 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/general/University/VHDL/MIPS/MIPS.srcs/sources_1/new/DM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DM'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/general/University/VHDL/MIPS/MIPS.srcs/sources_1/new/PC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PC'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/general/University/VHDL/MIPS/MIPS.ip_user_files/bd/MIPS_Design/ip/MIPS_Design_DM_0_0/sim/MIPS_Design_DM_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIPS_Design_DM_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/general/University/VHDL/MIPS/MIPS.ip_user_files/bd/MIPS_Design/ip/MIPS_Design_PC_0_0/sim/MIPS_Design_PC_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIPS_Design_PC_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/general/University/VHDL/MIPS/MIPS.ip_user_files/bd/MIPS_Design/sim/MIPS_Design.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIPS_Design'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/general/University/VHDL/MIPS/MIPS.srcs/sources_1/bd/MIPS_Design/hdl/MIPS_Design_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIPS_Design_wrapper'

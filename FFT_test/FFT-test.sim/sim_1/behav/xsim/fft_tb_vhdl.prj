@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../FFT-test.srcs/sources_1/ip/xfft_0/sim/xfft_0.vhd" \
+"../../../../FFT-test.srcs/sim_1/new/fft_tb.vhd" \
+
+# Do not sort compile order
+nosort

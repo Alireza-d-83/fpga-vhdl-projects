@@ -1,0 +1,1 @@
+-wto "c5d39fc584af42878841aaa390249f63" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tenMaxTree_behav" "xil_defaultlib.tenMaxTree" -log "elaborate.log" 

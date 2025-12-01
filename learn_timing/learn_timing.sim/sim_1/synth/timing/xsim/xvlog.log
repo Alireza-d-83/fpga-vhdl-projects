@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/general/University/VHDL/learn_timing/learn_timing.sim/sim_1/synth/timing/xsim/tb_timing_example_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timing_example
+INFO: [VRFC 10-311] analyzing module glbl

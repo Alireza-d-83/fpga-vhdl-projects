@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Nov 30 20:37:07 2025
+# Process ID: 6736
+# Current directory: D:/general/University/VHDL/hello_world/hello_world.runs/synth_1
+# Command line: vivado.exe -log T10_StdLogicTb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source T10_StdLogicTb.tcl
+# Log file: D:/general/University/VHDL/hello_world/hello_world.runs/synth_1/T10_StdLogicTb.vds
+# Journal file: D:/general/University/VHDL/hello_world/hello_world.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source T10_StdLogicTb.tcl -notrace

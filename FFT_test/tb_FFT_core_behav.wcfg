@@ -1,0 +1,1647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_FFT_core_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_FFT_core" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3499470000fs"></ZoomStartTime>
+      <ZoomEndTime time="9766015785fs"></ZoomEndTime>
+      <Cursor1Time time="8520000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="219"></NameColumnWidth>
+      <ValueColumnWidth column_width="544"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/tb_FFT_core/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FFT_core/dut/s_axis_data_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_data_tdata[47:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tdata[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FFT_core/dut/m_axis_data_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_data_tdata[47:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tdata[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FFT_core/dut/your_instance_name/s_axis_data_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FFT_core/dut/s_axis_data_tlast" type="logic">
+      <obj_property name="ElementShortName">s_axis_data_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FFT_core/dut/m_axis_data_tlast" type="logic">
+      <obj_property name="ElementShortName">m_axis_data_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FFT_core/dut/m_axis_data_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FFT_core/dut/address" type="array">
+      <obj_property name="ElementShortName">address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FFT_core/dut/re_memory" type="array">
+      <obj_property name="ElementShortName">re_memory[0:64][17:0]</obj_property>
+      <obj_property name="ObjectShortName">re_memory[0:64][17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">17</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[0]" type="array">
+         <obj_property name="ElementShortName">[0][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[1]" type="array">
+         <obj_property name="ElementShortName">[1][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[2]" type="array">
+         <obj_property name="ElementShortName">[2][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[3]" type="array">
+         <obj_property name="ElementShortName">[3][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[4]" type="array">
+         <obj_property name="ElementShortName">[4][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[5]" type="array">
+         <obj_property name="ElementShortName">[5][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[6]" type="array">
+         <obj_property name="ElementShortName">[6][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[7]" type="array">
+         <obj_property name="ElementShortName">[7][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[8]" type="array">
+         <obj_property name="ElementShortName">[8][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[9]" type="array">
+         <obj_property name="ElementShortName">[9][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[10]" type="array">
+         <obj_property name="ElementShortName">[10][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[11]" type="array">
+         <obj_property name="ElementShortName">[11][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[12]" type="array">
+         <obj_property name="ElementShortName">[12][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[13]" type="array">
+         <obj_property name="ElementShortName">[13][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[14]" type="array">
+         <obj_property name="ElementShortName">[14][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[15]" type="array">
+         <obj_property name="ElementShortName">[15][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[16]" type="array">
+         <obj_property name="ElementShortName">[16][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[17]" type="array">
+         <obj_property name="ElementShortName">[17][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[18]" type="array">
+         <obj_property name="ElementShortName">[18][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[19]" type="array">
+         <obj_property name="ElementShortName">[19][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[20]" type="array">
+         <obj_property name="ElementShortName">[20][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[21]" type="array">
+         <obj_property name="ElementShortName">[21][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[22]" type="array">
+         <obj_property name="ElementShortName">[22][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[23]" type="array">
+         <obj_property name="ElementShortName">[23][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[24]" type="array">
+         <obj_property name="ElementShortName">[24][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[25]" type="array">
+         <obj_property name="ElementShortName">[25][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[26]" type="array">
+         <obj_property name="ElementShortName">[26][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[27]" type="array">
+         <obj_property name="ElementShortName">[27][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[28]" type="array">
+         <obj_property name="ElementShortName">[28][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[29]" type="array">
+         <obj_property name="ElementShortName">[29][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[30]" type="array">
+         <obj_property name="ElementShortName">[30][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[31]" type="array">
+         <obj_property name="ElementShortName">[31][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[32]" type="array">
+         <obj_property name="ElementShortName">[32][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[32][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[33]" type="array">
+         <obj_property name="ElementShortName">[33][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[33][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[34]" type="array">
+         <obj_property name="ElementShortName">[34][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[34][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[35]" type="array">
+         <obj_property name="ElementShortName">[35][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[35][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[36]" type="array">
+         <obj_property name="ElementShortName">[36][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[36][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[37]" type="array">
+         <obj_property name="ElementShortName">[37][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[37][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[38]" type="array">
+         <obj_property name="ElementShortName">[38][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[38][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[39]" type="array">
+         <obj_property name="ElementShortName">[39][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[39][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[40]" type="array">
+         <obj_property name="ElementShortName">[40][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[40][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[41]" type="array">
+         <obj_property name="ElementShortName">[41][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[41][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[42]" type="array">
+         <obj_property name="ElementShortName">[42][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[42][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[43]" type="array">
+         <obj_property name="ElementShortName">[43][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[43][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[44]" type="array">
+         <obj_property name="ElementShortName">[44][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[44][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[45]" type="array">
+         <obj_property name="ElementShortName">[45][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[45][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[46]" type="array">
+         <obj_property name="ElementShortName">[46][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[46][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[47]" type="array">
+         <obj_property name="ElementShortName">[47][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[47][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[48]" type="array">
+         <obj_property name="ElementShortName">[48][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[48][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[49]" type="array">
+         <obj_property name="ElementShortName">[49][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[49][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[50]" type="array">
+         <obj_property name="ElementShortName">[50][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[50][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[51]" type="array">
+         <obj_property name="ElementShortName">[51][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[51][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[52]" type="array">
+         <obj_property name="ElementShortName">[52][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[52][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[53]" type="array">
+         <obj_property name="ElementShortName">[53][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[53][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[54]" type="array">
+         <obj_property name="ElementShortName">[54][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[54][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[55]" type="array">
+         <obj_property name="ElementShortName">[55][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[55][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[56]" type="array">
+         <obj_property name="ElementShortName">[56][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[56][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[57]" type="array">
+         <obj_property name="ElementShortName">[57][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[57][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[58]" type="array">
+         <obj_property name="ElementShortName">[58][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[58][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[59]" type="array">
+         <obj_property name="ElementShortName">[59][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[59][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[60]" type="array">
+         <obj_property name="ElementShortName">[60][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[60][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[61]" type="array">
+         <obj_property name="ElementShortName">[61][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[61][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[62]" type="array">
+         <obj_property name="ElementShortName">[62][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[62][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[63]" type="array">
+         <obj_property name="ElementShortName">[63][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[63][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[64]" type="array">
+         <obj_property name="ElementShortName">[64][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[64][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[0]" type="array">
+         <obj_property name="ElementShortName">[0][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[1]" type="array">
+         <obj_property name="ElementShortName">[1][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[2]" type="array">
+         <obj_property name="ElementShortName">[2][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[3]" type="array">
+         <obj_property name="ElementShortName">[3][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[4]" type="array">
+         <obj_property name="ElementShortName">[4][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[5]" type="array">
+         <obj_property name="ElementShortName">[5][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[6]" type="array">
+         <obj_property name="ElementShortName">[6][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[7]" type="array">
+         <obj_property name="ElementShortName">[7][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[8]" type="array">
+         <obj_property name="ElementShortName">[8][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[9]" type="array">
+         <obj_property name="ElementShortName">[9][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[10]" type="array">
+         <obj_property name="ElementShortName">[10][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[11]" type="array">
+         <obj_property name="ElementShortName">[11][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[12]" type="array">
+         <obj_property name="ElementShortName">[12][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[13]" type="array">
+         <obj_property name="ElementShortName">[13][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[14]" type="array">
+         <obj_property name="ElementShortName">[14][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[15]" type="array">
+         <obj_property name="ElementShortName">[15][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[16]" type="array">
+         <obj_property name="ElementShortName">[16][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[17]" type="array">
+         <obj_property name="ElementShortName">[17][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[18]" type="array">
+         <obj_property name="ElementShortName">[18][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[19]" type="array">
+         <obj_property name="ElementShortName">[19][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[20]" type="array">
+         <obj_property name="ElementShortName">[20][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[21]" type="array">
+         <obj_property name="ElementShortName">[21][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[22]" type="array">
+         <obj_property name="ElementShortName">[22][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[23]" type="array">
+         <obj_property name="ElementShortName">[23][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[24]" type="array">
+         <obj_property name="ElementShortName">[24][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[25]" type="array">
+         <obj_property name="ElementShortName">[25][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[26]" type="array">
+         <obj_property name="ElementShortName">[26][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[27]" type="array">
+         <obj_property name="ElementShortName">[27][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[28]" type="array">
+         <obj_property name="ElementShortName">[28][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[29]" type="array">
+         <obj_property name="ElementShortName">[29][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[30]" type="array">
+         <obj_property name="ElementShortName">[30][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[31]" type="array">
+         <obj_property name="ElementShortName">[31][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[32]" type="array">
+         <obj_property name="ElementShortName">[32][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[32][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[33]" type="array">
+         <obj_property name="ElementShortName">[33][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[33][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[34]" type="array">
+         <obj_property name="ElementShortName">[34][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[34][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[35]" type="array">
+         <obj_property name="ElementShortName">[35][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[35][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[36]" type="array">
+         <obj_property name="ElementShortName">[36][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[36][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[37]" type="array">
+         <obj_property name="ElementShortName">[37][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[37][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[38]" type="array">
+         <obj_property name="ElementShortName">[38][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[38][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[39]" type="array">
+         <obj_property name="ElementShortName">[39][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[39][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[40]" type="array">
+         <obj_property name="ElementShortName">[40][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[40][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[41]" type="array">
+         <obj_property name="ElementShortName">[41][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[41][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[42]" type="array">
+         <obj_property name="ElementShortName">[42][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[42][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[43]" type="array">
+         <obj_property name="ElementShortName">[43][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[43][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[44]" type="array">
+         <obj_property name="ElementShortName">[44][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[44][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[45]" type="array">
+         <obj_property name="ElementShortName">[45][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[45][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[46]" type="array">
+         <obj_property name="ElementShortName">[46][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[46][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[47]" type="array">
+         <obj_property name="ElementShortName">[47][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[47][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[48]" type="array">
+         <obj_property name="ElementShortName">[48][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[48][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[49]" type="array">
+         <obj_property name="ElementShortName">[49][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[49][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[50]" type="array">
+         <obj_property name="ElementShortName">[50][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[50][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[51]" type="array">
+         <obj_property name="ElementShortName">[51][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[51][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[52]" type="array">
+         <obj_property name="ElementShortName">[52][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[52][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[53]" type="array">
+         <obj_property name="ElementShortName">[53][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[53][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[54]" type="array">
+         <obj_property name="ElementShortName">[54][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[54][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[55]" type="array">
+         <obj_property name="ElementShortName">[55][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[55][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[56]" type="array">
+         <obj_property name="ElementShortName">[56][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[56][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[57]" type="array">
+         <obj_property name="ElementShortName">[57][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[57][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[58]" type="array">
+         <obj_property name="ElementShortName">[58][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[58][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[59]" type="array">
+         <obj_property name="ElementShortName">[59][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[59][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[60]" type="array">
+         <obj_property name="ElementShortName">[60][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[60][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[61]" type="array">
+         <obj_property name="ElementShortName">[61][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[61][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[62]" type="array">
+         <obj_property name="ElementShortName">[62][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[62][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[63]" type="array">
+         <obj_property name="ElementShortName">[63][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[63][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/re_memory[64]" type="array">
+         <obj_property name="ElementShortName">[64][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[64][17:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_FFT_core/dut/im_memory" type="array">
+      <obj_property name="ElementShortName">im_memory[0:64][17:0]</obj_property>
+      <obj_property name="ObjectShortName">im_memory[0:64][17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">17</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[0]" type="array">
+         <obj_property name="ElementShortName">[0][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[1]" type="array">
+         <obj_property name="ElementShortName">[1][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[2]" type="array">
+         <obj_property name="ElementShortName">[2][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[3]" type="array">
+         <obj_property name="ElementShortName">[3][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[4]" type="array">
+         <obj_property name="ElementShortName">[4][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[5]" type="array">
+         <obj_property name="ElementShortName">[5][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[6]" type="array">
+         <obj_property name="ElementShortName">[6][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[7]" type="array">
+         <obj_property name="ElementShortName">[7][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[8]" type="array">
+         <obj_property name="ElementShortName">[8][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[9]" type="array">
+         <obj_property name="ElementShortName">[9][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[10]" type="array">
+         <obj_property name="ElementShortName">[10][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[11]" type="array">
+         <obj_property name="ElementShortName">[11][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[12]" type="array">
+         <obj_property name="ElementShortName">[12][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[13]" type="array">
+         <obj_property name="ElementShortName">[13][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[14]" type="array">
+         <obj_property name="ElementShortName">[14][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[15]" type="array">
+         <obj_property name="ElementShortName">[15][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[16]" type="array">
+         <obj_property name="ElementShortName">[16][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[17]" type="array">
+         <obj_property name="ElementShortName">[17][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[18]" type="array">
+         <obj_property name="ElementShortName">[18][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[19]" type="array">
+         <obj_property name="ElementShortName">[19][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[20]" type="array">
+         <obj_property name="ElementShortName">[20][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[21]" type="array">
+         <obj_property name="ElementShortName">[21][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[22]" type="array">
+         <obj_property name="ElementShortName">[22][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[23]" type="array">
+         <obj_property name="ElementShortName">[23][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[24]" type="array">
+         <obj_property name="ElementShortName">[24][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[25]" type="array">
+         <obj_property name="ElementShortName">[25][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[26]" type="array">
+         <obj_property name="ElementShortName">[26][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[27]" type="array">
+         <obj_property name="ElementShortName">[27][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[28]" type="array">
+         <obj_property name="ElementShortName">[28][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[29]" type="array">
+         <obj_property name="ElementShortName">[29][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[30]" type="array">
+         <obj_property name="ElementShortName">[30][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[31]" type="array">
+         <obj_property name="ElementShortName">[31][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[32]" type="array">
+         <obj_property name="ElementShortName">[32][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[32][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[33]" type="array">
+         <obj_property name="ElementShortName">[33][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[33][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[34]" type="array">
+         <obj_property name="ElementShortName">[34][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[34][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[35]" type="array">
+         <obj_property name="ElementShortName">[35][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[35][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[36]" type="array">
+         <obj_property name="ElementShortName">[36][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[36][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[37]" type="array">
+         <obj_property name="ElementShortName">[37][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[37][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[38]" type="array">
+         <obj_property name="ElementShortName">[38][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[38][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[39]" type="array">
+         <obj_property name="ElementShortName">[39][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[39][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[40]" type="array">
+         <obj_property name="ElementShortName">[40][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[40][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[41]" type="array">
+         <obj_property name="ElementShortName">[41][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[41][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[42]" type="array">
+         <obj_property name="ElementShortName">[42][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[42][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[43]" type="array">
+         <obj_property name="ElementShortName">[43][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[43][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[44]" type="array">
+         <obj_property name="ElementShortName">[44][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[44][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[45]" type="array">
+         <obj_property name="ElementShortName">[45][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[45][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[46]" type="array">
+         <obj_property name="ElementShortName">[46][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[46][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[47]" type="array">
+         <obj_property name="ElementShortName">[47][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[47][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[48]" type="array">
+         <obj_property name="ElementShortName">[48][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[48][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[49]" type="array">
+         <obj_property name="ElementShortName">[49][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[49][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[50]" type="array">
+         <obj_property name="ElementShortName">[50][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[50][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[51]" type="array">
+         <obj_property name="ElementShortName">[51][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[51][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[52]" type="array">
+         <obj_property name="ElementShortName">[52][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[52][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[53]" type="array">
+         <obj_property name="ElementShortName">[53][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[53][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[54]" type="array">
+         <obj_property name="ElementShortName">[54][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[54][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[55]" type="array">
+         <obj_property name="ElementShortName">[55][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[55][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[56]" type="array">
+         <obj_property name="ElementShortName">[56][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[56][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[57]" type="array">
+         <obj_property name="ElementShortName">[57][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[57][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[58]" type="array">
+         <obj_property name="ElementShortName">[58][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[58][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[59]" type="array">
+         <obj_property name="ElementShortName">[59][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[59][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[60]" type="array">
+         <obj_property name="ElementShortName">[60][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[60][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[61]" type="array">
+         <obj_property name="ElementShortName">[61][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[61][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[62]" type="array">
+         <obj_property name="ElementShortName">[62][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[62][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[63]" type="array">
+         <obj_property name="ElementShortName">[63][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[63][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[64]" type="array">
+         <obj_property name="ElementShortName">[64][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[64][17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[0]" type="array">
+         <obj_property name="ElementShortName">[0][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[1]" type="array">
+         <obj_property name="ElementShortName">[1][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[2]" type="array">
+         <obj_property name="ElementShortName">[2][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[3]" type="array">
+         <obj_property name="ElementShortName">[3][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[4]" type="array">
+         <obj_property name="ElementShortName">[4][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[5]" type="array">
+         <obj_property name="ElementShortName">[5][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[6]" type="array">
+         <obj_property name="ElementShortName">[6][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[7]" type="array">
+         <obj_property name="ElementShortName">[7][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[8]" type="array">
+         <obj_property name="ElementShortName">[8][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[9]" type="array">
+         <obj_property name="ElementShortName">[9][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[10]" type="array">
+         <obj_property name="ElementShortName">[10][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[11]" type="array">
+         <obj_property name="ElementShortName">[11][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[12]" type="array">
+         <obj_property name="ElementShortName">[12][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[13]" type="array">
+         <obj_property name="ElementShortName">[13][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[14]" type="array">
+         <obj_property name="ElementShortName">[14][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[15]" type="array">
+         <obj_property name="ElementShortName">[15][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[16]" type="array">
+         <obj_property name="ElementShortName">[16][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[17]" type="array">
+         <obj_property name="ElementShortName">[17][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[18]" type="array">
+         <obj_property name="ElementShortName">[18][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[19]" type="array">
+         <obj_property name="ElementShortName">[19][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[20]" type="array">
+         <obj_property name="ElementShortName">[20][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[21]" type="array">
+         <obj_property name="ElementShortName">[21][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[22]" type="array">
+         <obj_property name="ElementShortName">[22][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[23]" type="array">
+         <obj_property name="ElementShortName">[23][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[24]" type="array">
+         <obj_property name="ElementShortName">[24][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[25]" type="array">
+         <obj_property name="ElementShortName">[25][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[26]" type="array">
+         <obj_property name="ElementShortName">[26][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[27]" type="array">
+         <obj_property name="ElementShortName">[27][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[28]" type="array">
+         <obj_property name="ElementShortName">[28][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[29]" type="array">
+         <obj_property name="ElementShortName">[29][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[30]" type="array">
+         <obj_property name="ElementShortName">[30][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[31]" type="array">
+         <obj_property name="ElementShortName">[31][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[32]" type="array">
+         <obj_property name="ElementShortName">[32][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[32][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[33]" type="array">
+         <obj_property name="ElementShortName">[33][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[33][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[34]" type="array">
+         <obj_property name="ElementShortName">[34][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[34][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[35]" type="array">
+         <obj_property name="ElementShortName">[35][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[35][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[36]" type="array">
+         <obj_property name="ElementShortName">[36][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[36][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[37]" type="array">
+         <obj_property name="ElementShortName">[37][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[37][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[38]" type="array">
+         <obj_property name="ElementShortName">[38][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[38][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[39]" type="array">
+         <obj_property name="ElementShortName">[39][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[39][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[40]" type="array">
+         <obj_property name="ElementShortName">[40][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[40][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[41]" type="array">
+         <obj_property name="ElementShortName">[41][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[41][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[42]" type="array">
+         <obj_property name="ElementShortName">[42][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[42][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[43]" type="array">
+         <obj_property name="ElementShortName">[43][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[43][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[44]" type="array">
+         <obj_property name="ElementShortName">[44][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[44][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[45]" type="array">
+         <obj_property name="ElementShortName">[45][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[45][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[46]" type="array">
+         <obj_property name="ElementShortName">[46][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[46][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[47]" type="array">
+         <obj_property name="ElementShortName">[47][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[47][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[48]" type="array">
+         <obj_property name="ElementShortName">[48][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[48][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[49]" type="array">
+         <obj_property name="ElementShortName">[49][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[49][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[50]" type="array">
+         <obj_property name="ElementShortName">[50][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[50][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[51]" type="array">
+         <obj_property name="ElementShortName">[51][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[51][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[52]" type="array">
+         <obj_property name="ElementShortName">[52][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[52][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[53]" type="array">
+         <obj_property name="ElementShortName">[53][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[53][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[54]" type="array">
+         <obj_property name="ElementShortName">[54][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[54][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[55]" type="array">
+         <obj_property name="ElementShortName">[55][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[55][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[56]" type="array">
+         <obj_property name="ElementShortName">[56][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[56][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[57]" type="array">
+         <obj_property name="ElementShortName">[57][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[57][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[58]" type="array">
+         <obj_property name="ElementShortName">[58][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[58][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[59]" type="array">
+         <obj_property name="ElementShortName">[59][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[59][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[60]" type="array">
+         <obj_property name="ElementShortName">[60][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[60][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[61]" type="array">
+         <obj_property name="ElementShortName">[61][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[61][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[62]" type="array">
+         <obj_property name="ElementShortName">[62][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[62][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[63]" type="array">
+         <obj_property name="ElementShortName">[63][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[63][17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_FFT_core/dut/im_memory[64]" type="array">
+         <obj_property name="ElementShortName">[64][17:0]</obj_property>
+         <obj_property name="ObjectShortName">[64][17:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_FFT_core/dut/data_in_fft_re" type="array">
+      <obj_property name="ElementShortName">data_in_fft_re[17:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in_fft_re[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">17</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FFT_core/dut/data_in_fft_im" type="array">
+      <obj_property name="ElementShortName">data_in_fft_im[17:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in_fft_im[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">17</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+</wave_config>

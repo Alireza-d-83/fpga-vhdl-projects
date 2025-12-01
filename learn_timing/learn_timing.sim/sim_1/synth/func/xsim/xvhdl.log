@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/general/University/VHDL/learn_timing/learn_timing.sim/sim_1/synth/func/xsim/tb_timing_example_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'timing_example'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/general/University/VHDL/learn_timing/learn_timing.srcs/sim_1/new/main_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_timing_example'

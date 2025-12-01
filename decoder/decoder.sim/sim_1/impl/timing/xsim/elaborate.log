@@ -1,0 +1,7 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programs/vivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ac6e9498529149c4ab3235dbb0ee21ba --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_decoder_4_16_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_decoder_4_16 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <A> does not exist in entity <decoder_4_16>.  Please compare the definition of block <decoder_4_16> to its component declaration and its instantion to detect the mismatch. [D:/University/VHDL/decoder/decoder.srcs/sim_1/new/SIM_decoder_4_16.vhd:10]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

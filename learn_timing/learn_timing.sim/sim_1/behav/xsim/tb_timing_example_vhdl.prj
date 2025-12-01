@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../learn_timing.srcs/sources_1/new/main.vhd" \
+"../../../../learn_timing.srcs/sim_1/new/main_sim.vhd" \
+
+# Do not sort compile order
+nosort

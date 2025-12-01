@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Apr  6 05:35:49 2025
+# Process ID: 12708
+# Current directory: D:/University/VHDL/Memory_ALU/Memory_ALU.runs/synth_1
+# Command line: vivado.exe -log MAIN.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MAIN.tcl
+# Log file: D:/University/VHDL/Memory_ALU/Memory_ALU.runs/synth_1/MAIN.vds
+# Journal file: D:/University/VHDL/Memory_ALU/Memory_ALU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source MAIN.tcl -notrace

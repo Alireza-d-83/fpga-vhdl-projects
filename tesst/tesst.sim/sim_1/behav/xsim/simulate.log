@@ -1,0 +1,12 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Note: slv6=1
+Time: 200 ns  Iteration: 0  Process: /T/line__11  File: D:/University/VHDL/tesst/tesst.srcs/sources_1/new/hello.vhd
+Note: slv6=2
+Time: 400 ns  Iteration: 0  Process: /T/line__11  File: D:/University/VHDL/tesst/tesst.srcs/sources_1/new/hello.vhd
+Note: slv6=3
+Time: 600 ns  Iteration: 0  Process: /T/line__11  File: D:/University/VHDL/tesst/tesst.srcs/sources_1/new/hello.vhd
+Note: slv6=4
+Time: 800 ns  Iteration: 0  Process: /T/line__11  File: D:/University/VHDL/tesst/tesst.srcs/sources_1/new/hello.vhd
+Note: slv6=5
+Time: 1 us  Iteration: 0  Process: /T/line__11  File: D:/University/VHDL/tesst/tesst.srcs/sources_1/new/hello.vhd

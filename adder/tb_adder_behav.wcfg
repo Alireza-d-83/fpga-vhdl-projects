@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_adder_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_adder" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1058620691fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/tb_adder/A1" type="array">
+      <obj_property name="ElementShortName">A1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder/A2" type="array">
+      <obj_property name="ElementShortName">A2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder/A3" type="array">
+      <obj_property name="ElementShortName">A3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder/A4" type="array">
+      <obj_property name="ElementShortName">A4[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A4[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder/A5" type="array">
+      <obj_property name="ElementShortName">A5[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A5[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder/A6" type="array">
+      <obj_property name="ElementShortName">A6[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A6[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder/A7" type="array">
+      <obj_property name="ElementShortName">A7[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A7[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder/A8" type="array">
+      <obj_property name="ElementShortName">A8[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A8[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder/A9" type="array">
+      <obj_property name="ElementShortName">A9[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A9[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder/A10" type="array">
+      <obj_property name="ElementShortName">A10[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A10[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder/RESULT" type="array">
+      <obj_property name="ElementShortName">RESULT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

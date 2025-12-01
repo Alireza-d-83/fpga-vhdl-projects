@@ -1,0 +1,45 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto e138db8a2822491a9b3ece6d13079508 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot MIPS_Design_wrapper_behav xil_defaultlib.MIPS_Design_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture mips_design_alu_0_0_arch of entity xil_defaultlib.MIPS_Design_ALU_0_0 [mips_design_alu_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU_Control [alu_control_default]
+Compiling architecture mips_design_alu_control_0_0_arch of entity xil_defaultlib.MIPS_Design_ALU_Control_0_0 [mips_design_alu_control_0_0_defa...]
+Compiling architecture behavioral of entity xil_defaultlib.Control_Unit [control_unit_default]
+Compiling architecture mips_design_control_unit_0_0_arch of entity xil_defaultlib.MIPS_Design_Control_Unit_0_0 [mips_design_control_unit_0_0_def...]
+Compiling architecture behavioral of entity xil_defaultlib.DM [dm_default]
+Compiling architecture mips_design_dm_0_0_arch of entity xil_defaultlib.MIPS_Design_DM_0_0 [mips_design_dm_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.File_Register [file_register_default]
+Compiling architecture mips_design_file_register_0_0_arch of entity xil_defaultlib.MIPS_Design_File_Register_0_0 [mips_design_file_register_0_0_de...]
+Compiling architecture behavioral of entity xil_defaultlib.IM [im_default]
+Compiling architecture mips_design_im_0_0_arch of entity xil_defaultlib.MIPS_Design_IM_0_0 [mips_design_im_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture mips_design_pc_0_0_arch of entity xil_defaultlib.MIPS_Design_PC_0_0 [mips_design_pc_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC_Adder [pc_adder_default]
+Compiling architecture mips_design_pc_adder_0_0_arch of entity xil_defaultlib.MIPS_Design_PC_Adder_0_0 [mips_design_pc_adder_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.Sign_Extention [sign_extention_default]
+Compiling architecture mips_design_sign_extention_0_0_arch of entity xil_defaultlib.MIPS_Design_Sign_Extention_0_0 [mips_design_sign_extention_0_0_d...]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2x1 [mux_2x1_default]
+Compiling architecture mips_design_mux_2x1_1_0_arch of entity xil_defaultlib.MIPS_Design_mux_2x1_1_0 [mips_design_mux_2x1_1_0_default]
+Compiling architecture mips_design_mux_2x1_2_1_arch of entity xil_defaultlib.MIPS_Design_mux_2x1_2_1 [mips_design_mux_2x1_2_1_default]
+Compiling architecture mips_design_mux_2x1_4_0_arch of entity xil_defaultlib.MIPS_Design_mux_2x1_4_0 [mips_design_mux_2x1_4_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_addr [mux_addr_default]
+Compiling architecture mips_design_mux_addr_0_0_arch of entity xil_defaultlib.MIPS_Design_mux_addr_0_0 [mips_design_mux_addr_0_0_default]
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.MIPS_Design_util_vector_logic_0_...
+Compiling architecture structure of entity xil_defaultlib.MIPS_Design [mips_design_default]
+Compiling architecture structure of entity xil_defaultlib.mips_design_wrapper
+Built simulation snapshot MIPS_Design_wrapper_behav

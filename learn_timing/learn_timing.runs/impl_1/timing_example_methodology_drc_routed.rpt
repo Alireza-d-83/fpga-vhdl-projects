@@ -1,0 +1,55 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Nov 28 10:36:50 2025
+| Host         : DESKTOP-VEE6H17 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file timing_example_methodology_drc_routed.rpt -pb timing_example_methodology_drc_routed.pb -rpx timing_example_methodology_drc_routed.rpx
+| Design       : timing_example
+| Device       : xc7vx485tffg1157-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 3
++-----------+----------+------------------------------------------+------------+
+| Rule      | Severity | Description                              | Violations |
++-----------+----------+------------------------------------------+------------+
+| TIMING-18 | Warning  | Missing input or output delay            | 1          |
+| XDCH-2    | Warning  | Same min and max delay values on IO port | 2          |
++-----------+----------+------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on rst relative to clock(s) clk
+Related violations: <none>
+
+XDCH-2#1 Warning
+Same min and max delay values on IO port  
+The same input delay of 2.000 ns has been defined on port 'd_in' relative to clock clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock clk 2.000 [get_ports d_in]
+D:/general/University/VHDL/learn_timing/learn_timing.srcs/constrs_1/new/timing_constraints.xdc (Line: 2)
+Related violations: <none>
+
+XDCH-2#2 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'q_out' relative to clock clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock clk 2.000 [get_ports q_out]
+D:/general/University/VHDL/learn_timing/learn_timing.srcs/constrs_1/new/timing_constraints.xdc (Line: 3)
+Related violations: <none>
+
+

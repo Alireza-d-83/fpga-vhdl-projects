@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_LIFO_behav/xsimk.exe -simmode gui -wdb tb_LIFO_behav.wdb -simrunnum 0 -socket 3375
+Design successfully loaded
+Design Loading Memory Usage: 7672 KB (Peak: 7672 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 8312 KB (Peak: 8312 KB)
+Simulation CPU Usage: 61 ms

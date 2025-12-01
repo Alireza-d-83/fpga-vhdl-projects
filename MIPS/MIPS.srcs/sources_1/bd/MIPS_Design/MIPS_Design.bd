@@ -1,0 +1,686 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x824B0EC73EC0EF83",
+      "device": "xc7vx415tffg1158-2",
+      "name": "MIPS_Design",
+      "synth_flow_mode": "Singular",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "IM_0": "",
+      "Sign_Extention_0": "",
+      "PC_Adder_0": "",
+      "util_vector_logic_0": "",
+      "ALU_Control_0": "",
+      "Control_Unit": "",
+      "ALU_0": "",
+      "mux_2x1_1": "",
+      "mux_2x1_4": "",
+      "mux_2x1_2": "",
+      "File_Register_0": "",
+      "mux_addr_0": "",
+      "PC_0": "",
+      "DM_0": ""
+    },
+    "ports": {
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "rst",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "MIPS_Design_clk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "rst": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      }
+    },
+    "components": {
+      "IM_0": {
+        "vlnv": "xilinx.com:module_ref:IM:1.0",
+        "xci_name": "MIPS_Design_IM_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "IM",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "CLK_DOMAIN": {
+                "value": "MIPS_Design_clk",
+                "value_src": "default_prop"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "ReadAddress": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "ReadData": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "Sign_Extention_0": {
+        "vlnv": "xilinx.com:module_ref:Sign_Extention:1.0",
+        "xci_name": "MIPS_Design_Sign_Extention_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Sign_Extention",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "DataIn": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "DataOut": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "PC_Adder_0": {
+        "vlnv": "xilinx.com:module_ref:PC_Adder:1.0",
+        "xci_name": "MIPS_Design_PC_Adder_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "PC_Adder",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "PC_Data": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "Signextention_data": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "PC_New_Data": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "util_vector_logic_0": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "MIPS_Design_util_vector_logic_0_0",
+        "parameters": {
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "ALU_Control_0": {
+        "vlnv": "xilinx.com:module_ref:ALU_Control:1.0",
+        "xci_name": "MIPS_Design_ALU_Control_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ALU_Control",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Instruction": {
+            "direction": "I",
+            "left": "5",
+            "right": "0"
+          },
+          "ALUOP": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "func": {
+            "direction": "O",
+            "left": "2",
+            "right": "0"
+          }
+        }
+      },
+      "Control_Unit": {
+        "vlnv": "xilinx.com:module_ref:Control_Unit:1.0",
+        "xci_name": "MIPS_Design_Control_Unit_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Control_Unit",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "OP": {
+            "direction": "I",
+            "left": "5",
+            "right": "0"
+          },
+          "RegDst": {
+            "direction": "O"
+          },
+          "Branch": {
+            "direction": "O"
+          },
+          "MemWrite": {
+            "direction": "O"
+          },
+          "MemtoReg": {
+            "direction": "O"
+          },
+          "ALUScr": {
+            "direction": "O"
+          },
+          "RegWrite": {
+            "direction": "O"
+          },
+          "ALUOP": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          }
+        }
+      },
+      "ALU_0": {
+        "vlnv": "xilinx.com:module_ref:ALU:1.0",
+        "xci_name": "MIPS_Design_ALU_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ALU",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Data1": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "Data2": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "func": {
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "Result": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "zeros": {
+            "direction": "O"
+          }
+        }
+      },
+      "mux_2x1_1": {
+        "vlnv": "xilinx.com:module_ref:mux_2x1:1.0",
+        "xci_name": "MIPS_Design_mux_2x1_1_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "mux_2x1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Data1": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "Data2": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "Selector": {
+            "direction": "I"
+          },
+          "DataOut": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "mux_2x1_4": {
+        "vlnv": "xilinx.com:module_ref:mux_2x1:1.0",
+        "xci_name": "MIPS_Design_mux_2x1_4_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "mux_2x1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Data1": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "Data2": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "Selector": {
+            "direction": "I"
+          },
+          "DataOut": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "mux_2x1_2": {
+        "vlnv": "xilinx.com:module_ref:mux_2x1:1.0",
+        "xci_name": "MIPS_Design_mux_2x1_2_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "mux_2x1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Data1": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "Data2": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "Selector": {
+            "direction": "I"
+          },
+          "DataOut": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "File_Register_0": {
+        "vlnv": "xilinx.com:module_ref:File_Register:1.0",
+        "xci_name": "MIPS_Design_File_Register_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "File_Register",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "CLK_DOMAIN": {
+                "value": "MIPS_Design_clk",
+                "value_src": "default_prop"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "EN": {
+            "direction": "I"
+          },
+          "ReadRegister1": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "ReadRegister2": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "WriteRegister": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "WriteData": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "ReadData1": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "ReadData2": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "mux_addr_0": {
+        "vlnv": "xilinx.com:module_ref:mux_addr:1.0",
+        "xci_name": "MIPS_Design_mux_addr_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "mux_addr",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "selector": {
+            "direction": "I"
+          },
+          "Data1": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "Data2": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "DataOut": {
+            "direction": "O",
+            "left": "4",
+            "right": "0"
+          }
+        }
+      },
+      "PC_0": {
+        "vlnv": "xilinx.com:module_ref:PC:1.0",
+        "xci_name": "MIPS_Design_PC_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "PC",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "rst": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_HIGH",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "MIPS_Design_clk",
+                "value_src": "default_prop"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "DataIn": {
+            "direction": "I",
+            "left": "29",
+            "right": "0"
+          },
+          "DataOut": {
+            "direction": "O",
+            "left": "29",
+            "right": "0"
+          }
+        }
+      },
+      "DM_0": {
+        "vlnv": "xilinx.com:module_ref:DM:1.0",
+        "xci_name": "MIPS_Design_DM_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "DM",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "CLK_DOMAIN": {
+                "value": "MIPS_Design_clk",
+                "value_src": "default_prop"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "En": {
+            "direction": "I"
+          },
+          "Address": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "WriteData": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "ReadData": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "IM_0_ReadData": {
+        "ports": [
+          "IM_0/ReadData",
+          "ALU_Control_0/Instruction",
+          "Control_Unit/OP",
+          "Sign_Extention_0/DataIn",
+          "File_Register_0/ReadRegister1",
+          "File_Register_0/ReadRegister2",
+          "mux_addr_0/Data1",
+          "mux_addr_0/Data2"
+        ]
+      },
+      "File_Register_0_ReadData2": {
+        "ports": [
+          "File_Register_0/ReadData2",
+          "mux_2x1_1/Data1",
+          "DM_0/WriteData"
+        ]
+      },
+      "mux_2x1_1_DataOut": {
+        "ports": [
+          "mux_2x1_1/DataOut",
+          "ALU_0/Data2"
+        ]
+      },
+      "File_Register_0_ReadData1": {
+        "ports": [
+          "File_Register_0/ReadData1",
+          "ALU_0/Data1"
+        ]
+      },
+      "ALU_0_Result": {
+        "ports": [
+          "ALU_0/Result",
+          "mux_2x1_4/Data2",
+          "DM_0/Address"
+        ]
+      },
+      "DM_0_ReadData": {
+        "ports": [
+          "DM_0/ReadData",
+          "mux_2x1_4/Data1"
+        ]
+      },
+      "Control_Unit_0_RegDst": {
+        "ports": [
+          "Control_Unit/RegDst",
+          "mux_addr_0/selector"
+        ]
+      },
+      "Control_Unit_0_MemtoReg": {
+        "ports": [
+          "Control_Unit/MemtoReg",
+          "mux_2x1_4/Selector"
+        ]
+      },
+      "Control_Unit_0_RegWrite": {
+        "ports": [
+          "Control_Unit/RegWrite",
+          "File_Register_0/EN"
+        ]
+      },
+      "Sign_Extention_0_DataOut": {
+        "ports": [
+          "Sign_Extention_0/DataOut",
+          "PC_Adder_0/Signextention_data",
+          "mux_2x1_1/Data2"
+        ]
+      },
+      "Control_Unit_0_ALUScr": {
+        "ports": [
+          "Control_Unit/ALUScr",
+          "mux_2x1_1/Selector"
+        ]
+      },
+      "mux_2x1_4_DataOut": {
+        "ports": [
+          "mux_2x1_4/DataOut",
+          "File_Register_0/WriteData"
+        ]
+      },
+      "PC_0_DataOut": {
+        "ports": [
+          "PC_0/DataOut",
+          "IM_0/ReadAddress",
+          "PC_Adder_0/PC_Data",
+          "mux_2x1_2/Data1"
+        ]
+      },
+      "PC_Adder_0_PC_New_Data": {
+        "ports": [
+          "PC_Adder_0/PC_New_Data",
+          "mux_2x1_2/Data2"
+        ]
+      },
+      "Control_Unit_0_ALUOP": {
+        "ports": [
+          "Control_Unit/ALUOP",
+          "ALU_Control_0/ALUOP"
+        ]
+      },
+      "ALU_Control_0_func": {
+        "ports": [
+          "ALU_Control_0/func",
+          "ALU_0/func"
+        ]
+      },
+      "Control_Unit_0_MemRead": {
+        "ports": [
+          "Control_Unit/MemWrite",
+          "DM_0/En"
+        ]
+      },
+      "Control_Unit_0_Branch": {
+        "ports": [
+          "Control_Unit/Branch",
+          "util_vector_logic_0/Op1"
+        ]
+      },
+      "util_vector_logic_0_Res": {
+        "ports": [
+          "util_vector_logic_0/Res",
+          "mux_2x1_2/Selector"
+        ]
+      },
+      "ALU_0_zeros": {
+        "ports": [
+          "ALU_0/zeros",
+          "util_vector_logic_0/Op2"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "IM_0/clk",
+          "File_Register_0/clk",
+          "PC_0/clk",
+          "DM_0/clk"
+        ]
+      },
+      "mux_2x1_2_DataOut": {
+        "ports": [
+          "mux_2x1_2/DataOut",
+          "PC_0/DataIn"
+        ]
+      },
+      "mux_addr_0_DataOut": {
+        "ports": [
+          "mux_addr_0/DataOut",
+          "File_Register_0/WriteRegister"
+        ]
+      },
+      "rst_1": {
+        "ports": [
+          "rst",
+          "PC_0/rst"
+        ]
+      }
+    }
+  }
+}

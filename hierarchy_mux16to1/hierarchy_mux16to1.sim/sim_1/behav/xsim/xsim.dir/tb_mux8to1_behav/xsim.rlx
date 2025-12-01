@@ -1,0 +1,12 @@
+
+{ 
+    crc :  4992515618015797736  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto c6c9ae5f96ce4379a6a23032215eb6b9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_mux8to1_behav xil_defaultlib.tb_mux8to1" , 
+    buildDate : "Dec  7 2018" , 
+    buildTime : "00:33:28" , 
+    linkCmd : "D:\\Programs\\vivado\\Vivado\\2018.3\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/tb_mux8to1_behav/xsimk.exe\"   \"xsim.dir/tb_mux8to1_behav/obj/xsim_0.win64.obj\" \"xsim.dir/tb_mux8to1_behav/obj/xsim_1.win64.obj\" -L\"D:\\Programs\\vivado\\Vivado\\2018.3\\lib\\win64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../maxTree.srcs/sources_1/new/compareBlock.vhd" \
+"../../../../maxTree.srcs/sources_1/new/tenMaxTree.vhd" \
+"../../../../maxTree.srcs/sim_1/new/maxTree_tb.vhd" \
+
+# Do not sort compile order
+nosort

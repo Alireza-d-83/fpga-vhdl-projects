@@ -1,0 +1,67 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programs/vivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 92eae5d89e954bafb7a7c4ceca593617 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_MAIN_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_MAIN xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "tb_MAIN_time_synth.sdf", for root module "tb_MAIN/dut/dut1".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "tb_MAIN_time_synth.sdf", for root module "tb_MAIN/dut/dut1".
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module simprims_ver.BUFGCE(CE_TYPE="ASYNC")
+Compiling module simprims_ver.IBUFCTRL_default
+Compiling module simprims_ver.INBUF_default
+Compiling module xil_defaultlib.IBUF_UNIQ_BASE_
+Compiling module xil_defaultlib.IBUF_HD1
+Compiling module xil_defaultlib.IBUF_HD2
+Compiling module xil_defaultlib.IBUF_HD3
+Compiling module xil_defaultlib.IBUF_HD4
+Compiling module xil_defaultlib.IBUF_HD5
+Compiling module xil_defaultlib.IBUF_HD6
+Compiling module xil_defaultlib.IBUF_HD7
+Compiling module xil_defaultlib.IBUF_HD8
+Compiling module xil_defaultlib.IBUF_HD9
+Compiling module xil_defaultlib.IBUF_HD10
+Compiling module xil_defaultlib.IBUF_HD11
+Compiling module xil_defaultlib.IBUF_HD12
+Compiling module xil_defaultlib.IBUF_HD13
+Compiling module xil_defaultlib.IBUF_HD14
+Compiling module xil_defaultlib.IBUF_HD15
+Compiling module xil_defaultlib.IBUF_HD16
+Compiling module xil_defaultlib.IBUF_HD17
+Compiling module xil_defaultlib.IBUF_HD18
+Compiling module xil_defaultlib.IBUF_HD19
+Compiling module xil_defaultlib.IBUF_HD20
+Compiling module xil_defaultlib.IBUF_HD21
+Compiling module xil_defaultlib.IBUF_HD22
+Compiling module xil_defaultlib.IBUF_HD23
+Compiling module xil_defaultlib.IBUF_HD24
+Compiling module xil_defaultlib.IBUF_HD25
+Compiling module xil_defaultlib.IBUF_HD26
+Compiling module xil_defaultlib.IBUF_HD27
+Compiling module xil_defaultlib.IBUF_HD28
+Compiling module simprims_ver.OBUF
+Compiling module xil_defaultlib.IBUF_HD29
+Compiling module xil_defaultlib.IBUF_HD30
+Compiling module xil_defaultlib.IBUF_HD31
+Compiling module xil_defaultlib.IBUF_HD32
+Compiling module xil_defaultlib.IBUF_HD33
+Compiling module xil_defaultlib.IBUF_HD34
+Compiling module xil_defaultlib.IBUF_HD35
+Compiling module xil_defaultlib.IBUF_HD36
+Compiling module xil_defaultlib.IBUF_HD37
+Compiling module xil_defaultlib.IBUF_HD38
+Compiling module xil_defaultlib.IBUF_HD39
+Compiling module simprims_ver.RAMB18E2(CLOCK_DOMAINS="COMMON",...
+Compiling module xil_defaultlib.Memory
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.MAIN [main_default]
+Compiling architecture tb of entity xil_defaultlib.tb_main
+Built simulation snapshot tb_MAIN_time_synth

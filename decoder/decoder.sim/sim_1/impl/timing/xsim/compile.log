@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/University/VHDL/decoder/decoder.sim/sim_1/impl/timing/xsim/tb_decoder_4_16_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_4_16
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/University/VHDL/decoder/decoder.srcs/sim_1/new/SIM_decoder_4_16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_decoder_4_16'

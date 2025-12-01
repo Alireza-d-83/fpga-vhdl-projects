@@ -1,0 +1,1 @@
+-wto "e138db8a2822491a9b3ece6d13079508" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "util_vector_logic_v2_0_1" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "MIPS_Design_wrapper_behav" "xil_defaultlib.MIPS_Design_wrapper" "xil_defaultlib.glbl" -log "elaborate.log" 

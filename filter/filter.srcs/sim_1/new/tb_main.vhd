@@ -1,0 +1,74 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity tb_main is
+end tb_main;
+
+architecture tb of tb_main is
+
+    component main
+        port (CLK : in std_logic;
+              RST : in std_logic;
+              WE  : in std_logic;
+              X   : in std_logic_vector (3 downto 0);
+              Y   : out std_logic_vector (7 downto 0));
+    end component;
+
+    signal CLK : std_logic := '0';
+    signal RST : std_logic := '0';
+    signal WE  : std_logic := '0';
+    signal X   : std_logic_vector (3 downto 0) := (others => '0');
+    signal Y   : std_logic_vector (7 downto 0) := (others => '0');
+
+begin
+
+    dut : main
+    port map (CLK => CLK,
+              RST => RST,
+              WE  => WE,
+              X   => X,
+              Y   => Y);
+
+    -- ? ????? ?????? ???? ?? ?????? ?????????
+    clk_process : process
+    begin
+        while now < 1000 ns loop  -- ????????? ?? ????? ??????? ?? ??? ????
+            CLK <= '0';
+            wait for 20 ns;
+            CLK <= '1';
+            wait for 20 ns;
+        end loop;
+        wait; -- ??????? ?? ????? ????????
+    end process;
+
+    -- ? ????? ?????????? ?????
+    stimuli : process
+    begin
+        -- ???? ???? ???? ???? ???????? ?????
+        RST <= '1';
+        wait for 100 ns;
+        RST <= '0';
+
+        -- ????? ???????
+        wait for 30 ns;
+        WE <= '1';
+        X <= "0001";
+        wait for 40 ns;
+
+        X <= "0010";
+        wait for 40 ns;
+
+        X <= "0011";
+        wait for 40 ns;
+
+        X <= "0100";
+        wait for 40 ns;
+
+        X <= "0101";
+        wait for 40 ns;
+
+        -- ????? ???? ?????????
+        wait;
+    end process;
+
+end tb;

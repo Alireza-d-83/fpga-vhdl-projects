@@ -1,0 +1,16 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date              : Mon Feb 24 17:19:36 2025
+| Host              : Alirezad_laptop running 64-bit major release  (build 9200)
+| Command           : report_bus_skew -warn_on_violation -file decoder_4_16_bus_skew_routed.rpt -pb decoder_4_16_bus_skew_routed.pb -rpx decoder_4_16_bus_skew_routed.rpx
+| Design            : decoder_4_16
+| Device            : xczu2eg-sfva625
+| Speed File        : -1L  PRODUCTION 1.23 10-29-2018
+| Temperature Grade : I
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+
